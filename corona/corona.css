@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin-left: 5%;
+    background-image: url("corona.jpg");
+    background-color: #cccccc ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+    background-attachment: fixed;
+    justify-content: space-between;
+
+}
+
+.big-txt {
+    color:antiquewhite;
+    font-size: 35px;
+
+}
+div h3 p {
+    color: blueviolet;
+    font-size: 35px;
+}
+p {
+    color: #cccccc;
+}
+a {
+    text-decoration: none;
+}
+h2 {
+    background-color: blueviolet ;
+    color: mintcream;
+    border-radius: 10px;
+    height: 25%;
+    width: 25%;
+    margin-top: 4%;
+    
+}
+header {
+    display: -webkit-flex;
+    display: -oz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+padding: 30px 70px;
+}
+header h3 {
+    color: #cccccc;
+}
+header p {
+    color: crimson;
+}
+
+.nav-area {
+    list-style: none;
+    position: center;
+}
+.nav-area li  {
+    display: inline-block;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+.nav-area li a {
+    transition: .3s;
+    color: #ffffff;
+}
+.nav-area li a:hover {
+color: #d22938;
+}
+.btn-area {
+cursor: pointer;
+color: #ffffff;
+font-size: 12px;
+letter-spacing: 2px;
+text-transform: uppercase;
+padding: 10px 30px;
+border-radius: 50%;
+border:2px solid #f158cb;
+}
+.btn-1 {
+    cursor: pointer;
+color: #ffffff;
+font-size: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+padding: 10px 30px;
+border-radius: 15px;
+background-color: hotpink;
+}
+.btn-2 {
+    cursor: pointer;
+color: #ffffff;
+font-size: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+padding: 10px 30px;
+border-radius: 15px;
+border:2px solid #f158cb;
+}
+.btn-2:hover{
+background-color: hotpink;
+}
+.cards{
+    display:flex;
+    margin-top: 5%;
+    margin-left:5%;
+    margin-right:5%;
+    color:#F7E8F6;
+    
+}
+.active,.death,.recovered,.contries{
+    width:20.5%;
+    height:150px;
+    background-color: #52429B;
+    margin-right:2%;
+    margin-bottom:2%;
+    border-radius:15px;
+    
+    
+}
+#countries{
+   max-width:60%;
+   height: 35%;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top: 20%;
+    background-color: hotpink;
+    border-radius: 10px;
+    
+   
+}
+.active h1,.death h1,.recovered h1{
+    margin-left: 15%;
+    margin-top:15%;
+    text-transform: capitalize;
+    font-size: 15px;
+    color:#F7E8F6;
+    
+}
+.active p,.death p,.recovered p{
+    font-size:30px;
+    margin-left: 15%;
+    margin-top:1%
+    font-weight: bold;
+}
+.active p{
+    color:#dbce59;
+}
+.death p{
+    color:#DE1B20;
+}
+.recovered{
+    color:#0A81AB;
+}
+#up1,#up2,#up3{
+    margin-top:-5%;
+    font-size: 10px;
+    color:#F7E8F6;;
+}
